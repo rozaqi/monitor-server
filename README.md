@@ -1,8 +1,8 @@
 # monitor-server
 Telegram Bot for server monitoring
 
-step by step
-1. git clone https://github.com/rozaqiw/monitor-server/
+step by step  
+1. git clone https://github.com/rozaqiw/monitor-server/   
 2. cd monitor-server
 
 in telegram-send.sh change group_id and bot token                  
