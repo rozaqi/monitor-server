@@ -1,7 +1,7 @@
 # monitor-server
 Telegram Bot for server monitoring
 
-A. Send notification on SSH login  
+A. Send notification on SSH login 
 1. git clone https://github.com/rozaqiw/monitor-server/   
 2. cd monitor-server
 
@@ -22,7 +22,7 @@ move login-notify.sh to /etc/profile.d/ folder
 
 re-login ssh and check your bot telegram
 
-B. Monitoring Server  
+B. Monitoring Server 
 1. python3 utama.py
 
 
