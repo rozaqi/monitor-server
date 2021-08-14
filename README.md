@@ -22,7 +22,7 @@ move login-notify.sh to /etc/profile.d/ folder
 
 re-login ssh and check your bot telegram
 
-B. Monitoring Server
-python3 utama.py
+B. Monitoring Server  
+1. python3 utama.py
 
 
