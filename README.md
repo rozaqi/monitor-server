@@ -25,4 +25,33 @@ re-login ssh and check your bot telegram
 B. Monitoring Server 
 1. python3 utama.py
 
+# Telegram Bot-Api
 
+
+API Token - Get Api Token from [@botfather](https://telegram.me/botfather)
+
+### Video Tutorial
+
+https://www.youtube.com/watch?v=qIuGJEAAIHY
+
+## Features Of [@github_rbot]
+
+- [x] Start (`/start`)
+
+- [x] Help (`/help`)
+
+# List Command Monitoring Server Linux
+
+  - [x] List file,directory (`ls`)
+
+  - [x] Current directory (`pwd`)
+
+  - [x] Display the total amount of physical memory and system swap and buffers used by the kernel (`free`)
+
+  - [x] it is used to find out how long the system is active (running). (`uptime`)
+
+  - [x] Test Internet connection (`koneksi`)
+
+  - [x] Display the list of all the users logged in and out (`last`)
+
+  - [x] Prints the name of the user associated with the current effective user ID (`whoami`)
