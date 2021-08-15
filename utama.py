@@ -15,10 +15,6 @@ bot = telebot.TeleBot(token['telegramToken'])
 def welcome(message):
     # membalas pesan
     bot.reply_to(message, 'Halo, apa kabarmu?')
-    markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton(text='/start'))
-    markup.add(types.InlineKeyboardButton(text='/help'))
-
 
 @bot.message_handler(regexp='alhamdulillah')
 def text(message):
