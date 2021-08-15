@@ -1,12 +1,24 @@
-import os
 import telebot
 import subprocess
-bot = telebot.TeleBot('1810471515:AAENlNhtocAY8d2O6kHPxHOsdopVtXdqpmE')
+import json
+from telebot import types
+
+# config vars
+with open('config.json') as f:
+    token = json.load(f)
+
+bot = telebot.TeleBot(token['telegramToken'])
+
+
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
     # membalas pesan
     bot.reply_to(message, 'Halo, apa kabarmu?')
+    markup = types.InlineKeyboardMarkup()
+    markup.add(types.InlineKeyboardButton(text='/start'))
+    markup.add(types.InlineKeyboardButton(text='/help'))
+
 
 @bot.message_handler(regexp='alhamdulillah')
 def text(message):
