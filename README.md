@@ -30,11 +30,7 @@ B. Monitoring Server
 
 API Token - Get Api Token from [@botfather](https://telegram.me/botfather)
 
-### Video Tutorial
-
-https://www.youtube.com/watch?v=qIuGJEAAIHY
-
-## Features Of [@github_rbot]
+## Features
 
 - [x] Start (`/start`)
 
